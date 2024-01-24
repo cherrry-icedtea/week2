@@ -1,0 +1,10 @@
+h1, h2, h3, h4{
+    color:coral;
+    text-decoration:underline;
+}
+
+#img1 {
+    padding: 3px;
+    border: solid lightseagreen 20px;
+   
+}
