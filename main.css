@@ -3,8 +3,40 @@ h1, h2, h3, h4{
     text-decoration:underline;
 }
 
+body {
+   background-color: rgb(74, 6, 6);
+    background: linear-gradient(rgb(80, 4, 4), rgb(195, 2, 2));
+    /* background-position: right bottom, left top; */
+    background-size: contain;
+  }
+
 #img1 {
     padding: 3px;
     border: solid lightseagreen 20px;
    
+}
+
+*{
+  box-sizing: border-box;
+}
+
+.box {
+  color: white;
+  font-size: 13px;
+  font-family: sans-serif;
+  text-align: center;
+  padding: 15px;
+}
+
+.box1 { background: rgb(246, 81, 29);  padding: 10px;}
+.box2 { background: rgb(246, 81, 29); padding: 10px;}
+.box3 { background: rgb(246, 81, 29); padding: 10px;}
+.box4 { background: rgb(246, 81, 29); padding: 10px}
+.box5 { background: rgb(246, 81, 29); padding: 10px}
+
+.container {
+  display: flex ;
+  min-height: 50px;
+  flex-direction: row;
+  padding: 10px;
 }
